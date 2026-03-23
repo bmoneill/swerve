@@ -1,26 +1,21 @@
-# swerve
+<div align="center">
+    <h1><b>swerve</b></h1>
+    <h4>A suckless-inspired Unix-like monolithic kernel for i386 machines.</h4>
+</div>
 
-A suckless-inspired Unix-like monolithic kernel originally designed for i386
-machines. This is a work in progress. Please don't run this on real hardware.
-
-## Principles
-
-1. The program should be **free software**.
-2. The program should be as **efficient** as possible.
-3. The program should be as **legible** as possible.
-4. The program should be as **small** as possible.
+**This is a work in progress. Please don't run this on real hardware.**
 
 ## Prerequisites for building
 
-* GNU Binutils cross-compiled for swerve
-* GCC cross-compiled for swerve
-* GNU Make
-* A POSIX shell (`dash`, `bash`, ...)
+- GNU Binutils cross-compiled for swerve
+- GCC cross-compiled for swerve
+- GNU Make
+- A POSIX shell (`dash`, `bash`, ...)
 
 ## Prerequisites for making a GRUB image
 
-* fdisk (from util-linux)
-* GNU GRUB
+- fdisk (from util-linux)
+- GNU GRUB
 
 ## Building
 
@@ -35,7 +30,7 @@ machines. This is a work in progress. Please don't run this on real hardware.
 
 1. Run `make grub-image`
 
-## Copying
+## License
 
 All of the source code for the kernel and libc are licensed under the GNU GPL
 v3 (see LICENSE.gpl), unless otherwise noted. All documentation (in the doc
